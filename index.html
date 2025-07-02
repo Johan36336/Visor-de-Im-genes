@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Visor de Imágenes con Efectos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Visor de Imágenes</h1>
+  <input type="file" id="fileInput">
+  <div class="controls">
+    <button onclick="applyFilter('none')">Normal</button>
+    <button onclick="applyFilter('grayscale')">Blanco y Negro</button>
+    <button onclick="applyFilter('sepia')">Sepia</button>
+    <button onclick="applyZoom()">Zoom</button>
+  </div>
+  <div class="image-container">
+    <img id="preview" src="" alt="Imagen cargada" />
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

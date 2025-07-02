@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 400px;
+  margin-top: 20px;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.controls button {
+  margin: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.zoomed {
+  transform: scale(1.5);
+}
