@@ -1,7 +1,9 @@
 body {
   text-align: center;
+  color: aliceblue;
   font-family: sans-serif;
   padding: 20px;
+  background-image: url(fondo.jpg);
 }
 
 .image-container img {
@@ -11,12 +13,29 @@ body {
   transition: transform 0.3s, filter 0.3s;
 }
 
-.controls button {
-  margin: 5px;
-  padding: 10px 15px;
-  cursor: pointer;
+.controls {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 225px; 
 }
 
 .zoomed {
   transform: scale(1.5);
+}
+
+.filter-btn {
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  background-color: #247e16;
+  transform: scale(1.05); 
 }
