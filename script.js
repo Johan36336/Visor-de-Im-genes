@@ -1,5 +1,10 @@
 const fileInput = document.getElementById('fileInput');
-const preview = document.getElementById('preview');
+const previews = document.querySelectorAll('.preview');
+previews.forEach(preview => {
+  preview.addEventListener('click', () => {
+    preview.classList.toggle('zoomed');
+  });
+});
 
 fileInput.addEventListener('change', function () {
   const file = fileInput.files[0];
