@@ -4,7 +4,7 @@ Este proyecto fue desarrollado para la materia **Desarrollo Web Integral** como 
 
 ---
 
-## 📌 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - HTML5
 - CSS3
@@ -13,33 +13,33 @@ Este proyecto fue desarrollado para la materia **Desarrollo Web Integral** como 
 
 ---
 
-## ✅ Planeación de Actividades
+##  Planeación de Actividades
 
-| Semana | Actividad                                | Responsable |
+|   Dia  | Actividad                                | Responsable |
 |--------|-------------------------------------------|-------------|
-| 1      | Definir tecnologías                       | Johan       |
+| 1      | Definir tecnologías                       | Abiel       |
 | 1      | Crear repositorio                         | Johan       |
-| 2      | Maquetar HTML y CSS                       | Juan        |
-| 2      | Programar carga de imagen                 | Johan       |
-| 3      | Implementar efectos CSS/JS                | Juan        |
-| 4      | Diseño responsivo                         | Juan        |
-| 4      | Pruebas y correcciones                    | Ambos       |
-| 5      | Despliegue en GitHub Pages                | Johan       |
-| 5      | Documentación y README                    | Ambos       |
+| 1      | Maquetar HTML y CSS                       | Johan       |
+| 1      | imagenes                                  | Abiel       |
+| 1      | Implementar efectos CSS/JS                | Johan       |
+| 1      | Diseño responsivo                         | Abiel       |
+| 2      | Pruebas y correcciones                    | Ambos       |
+| 2      | Despliegue en GitHub Pages                | Ambos       |
+| 1      | README                                    | Abiel       |
 
 ---
 
-## 🔃 Lista de Actividades Priorizadas
+## Lista de Actividades Priorizadas
 
 | Tarea                             | Prioridad | Responsable | Estado       |
 |----------------------------------|-----------|-------------|--------------|
 | Crear repositorio                | Alta      | Johan       | Completado |
 | Maquetación HTML/CSS             | Alta      | Johan       | Completado |
 | Carga de imagen y preview        | Alta      | Abiel       | Completado |
-| Filtros CSS (blanco y negro)     | Media     | Abiel       | Completado |
+| Filtros CSS (blanco y negro)     | Media     | Ambos       | Completado |
 | Zoom con JS                      | Media     | Johan       | Completado |
 | Diseño responsivo                | Media     | Abiel       | Completado
-| Despliegue del sitio             | Baja      | Abiel       | Completado |
+| Despliegue del sitio             | Baja      | Ambos       | Completado |
 | Crear README con tareas          | Baja      | Ambos       | Completado |
 
 
