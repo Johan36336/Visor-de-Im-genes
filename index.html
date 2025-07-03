@@ -2,21 +2,29 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Visor de Imágenes</title>
+  <link rel="icon" type="image/png" href="simbolo-del-zodiaco-aries-de-cabeza-de-cabra-frontal.png">
+  <title>THE GOAT</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Visor de Imágenes</h1>
-  <input type="file" id="fileInput">
-<div class="controls">
-  <button class="filter-btn" onclick="applyFilter('none')">Normal</button>
-  <button class="filter-btn" onclick="applyFilter('grayscale')">Blanco y Negro</button>
-  <button class="filter-btn" onclick="applyFilter('sepia')">Sepia</button>
-  <button class="filter-btn" onclick="applyZoom()">Zoom</button>
-</div>
-  <div class="image-container">
-    <img id="preview" src="inter.avif" alt="" />
-  </div>
+  <header>
+    <label class="upload-btn">
+      SUBIR IMAGEN
+      <input type="file" id="fileInput" accept="image/*">
+    </label>
+  </header>
+
+  <section class="controls">
+    <button class="filter-btn" onclick="applyFilter('none')">Normal</button>
+    <button class="filter-btn" onclick="applyFilter('grayscale')">Blanco y Negro</button>
+    <button class="filter-btn" onclick="applyFilter('sepia')">Sepia</button>
+  </section>
+
+ <main class="gallery-container" id="gallery">
+  
+</main>
+
+
   <script src="script.js"></script>
 </body>
 </html>
