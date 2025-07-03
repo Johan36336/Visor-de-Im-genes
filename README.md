@@ -9,6 +9,8 @@ Este proyecto fue desarrollado para la materia **Desarrollo Web Integral** como 
 - HTML5
 - CSS3
 - JavaScript
+- SQLite
+- node
 - GitHub Pages para despliegue
 
 ---
