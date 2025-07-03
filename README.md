@@ -43,6 +43,3 @@ Este proyecto fue desarrollado para la materia **Desarrollo Web Integral** como 
 | Crear README con tareas          | Baja      | Ambos       | Completado |
 
 
-
-## 🔗 Link del proyecto desplegado
-*(Aquí pondrás el enlace cuando lo subas a GitHub Pages o Netlify)*
